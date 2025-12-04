@@ -26,3 +26,7 @@ body {
     --button-text: #ffffff;
     --border-color: #444444;
 }
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
