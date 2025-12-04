@@ -1,0 +1,28 @@
+body {
+    width: 1280px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333333;
+    transition: background-color 0.3s, color 0.3s;
+}
+:root {
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --header-bg: #2c3e50;
+    --header-text: #ffffff;
+    --button-bg: #3498db;
+    --button-text: #ffffff;
+    --border-color: #dddddd;
+}
+
+.dark-theme {
+    --bg-color: #1a1a1a;
+    --text-color: #ffffff;
+    --header-bg: #1e2a36;
+    --header-text: #ffffff;
+    --button-bg: #2980b9;
+    --button-text: #ffffff;
+    --border-color: #444444;
+}
