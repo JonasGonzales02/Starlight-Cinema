@@ -177,3 +177,24 @@ textarea {
     display: block;
     margin-top: 0.25rem;
 }
+footer {
+    background-color: #800000;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem 2rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+    font-family: 'Crimson Text', 'Georgia', serif;
+    font-size: 1rem;
+    color: #f8e9a1;
+}
+.dark-theme footer {
+    background-color: #600000;
+}
+
+.dark-theme footer p {
+    color: #d4af37;
+}
