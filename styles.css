@@ -74,3 +74,18 @@ nav a {
     border: none;
     cursor: pointer;
 }
+.movie-btn.active {
+    background-color: #e74c3c;
+}
+
+.movie-display {
+    border: 1px solid var(--border-color);
+    padding: 2rem;
+    text-align: center;
+}
+
+.movie-display img {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 1rem;
+}
