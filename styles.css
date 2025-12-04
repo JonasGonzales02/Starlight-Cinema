@@ -45,3 +45,15 @@ nav ul{
     display: flex;
     gap: 2rem;
 }
+nav a {
+    color: var(--header-text);
+    text-decoration: none;
+}
+
+#theme-toggle {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
