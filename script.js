@@ -73,3 +73,63 @@ document.getElementById('guess-btn').onclick = function() {
 
 document.getElementById('contact-form').onsubmit = function(e) {
     e.preventDefault();
+    const name = document.getElementById('full-name').value.trim();
+    const phone = document.getElementById('phone').value;
+    const email = document.getElementById('email').value;
+    const comments = document.getElementById('comments').value.trim();
+    const contactMethod = document.querySelector('input[name="contact-method"]:checked');
+    
+    document.querySelectorAll('.error-message').forEach(el => {
+        el.textContent = '';
+    });
+    let isValid = true;
+    if (!name) {
+        document.getElementById('name-error').textContent = "Full name is required";
+        isValid = false;
+    }
+    
+    if (phone && !/^\d{3}-\d{3}-\d{4}$/.test(phone)) {
+        document.getElementById('phone-error').textContent = "Please use format: 123-456-7890";
+        isValid = false;
+    }
+    
+    if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+        document.getElementById('email-error').textContent = "Please enter a valid email address";
+        isValid = false;
+    }
+    
+    if (!comments) {
+        document.getElementById('comments-error').textContent = "Comments are required";
+        isValid = false;
+    }
+    
+    if (!contactMethod) {
+        document.getElementById('method-error').textContent = "Please select a preferred contact method";
+        isValid = false;
+    }
+
+    if (isValid) {
+        const customer = {
+            name: name,
+            phone: phone || "Not provided",
+            email: email || "Not provided",
+            comments: comments,
+            contactMethod: contactMethod.value,
+            submissionDate: new Date().toLocaleString()
+        };
+        
+        const successDiv = document.getElementById('success-message');
+        const contactType = customer.contactMethod === 'phone' ? 'phone call' : 'email';
+        successDiv.innerHTML = `
+            <h3>Thank You, ${customer.name}!</h3>
+            <p>We will contact you via ${contactType} within 24 hours.</p>
+            <p><strong>Your Message:</strong> ${customer.comments}</p>
+        `;
+        successDiv.style.display = 'block';
+        
+        document.getElementById('contact-form').reset();
+        setTimeout(() => {
+            successDiv.style.display = 'none';
+        }, 10000);
+    }
+};
