@@ -30,3 +30,8 @@ body{
     background-color: var(--bg-color);
     color: var(--text-color);
 }
+header{
+    background-color: var(--header-bg);
+    color: var(--header-text);
+    padding: 1rem 2rem;
+}
