@@ -68,4 +68,8 @@ document.getElementById('guess-btn').onclick = function() {
         resultDiv.textContent = `Sorry! You guessed ${guess}. Try again!`;
         resultDiv.classList.add('error');
     }
-}
+    guessInput.value = '';
+};
+
+document.getElementById('contact-form').onsubmit = function(e) {
+    e.preventDefault();
