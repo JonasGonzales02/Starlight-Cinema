@@ -12,9 +12,10 @@ body {
     --text-color: #333333;
     --header-bg: #2c3e50;
     --header-text: #ffffff;
-    --button-bg: #3498db;
+    --button-bg: #000000;
     --button-text: #ffffff;
     --border-color: #dddddd;
+    --background-color: #8000000;
 }
 
 .dark-theme {
@@ -22,8 +23,8 @@ body {
     --text-color: #ffffff;
     --header-bg: #1e2a36;
     --header-text: #ffffff;
-    --button-bg: #2980b9;
-    --button-text: #ffffff;
+    --button-bg: #ffffff;
+    --button-text: #000000;
     --border-color: #444444;
 }
 body{
@@ -31,7 +32,7 @@ body{
     color: var(--text-color);
 }
 header{
-    background-color: var(--header-bg);
+    background-color: #800000;
     color: var(--header-text);
     padding: 1rem 2rem;
 }
