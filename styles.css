@@ -57,3 +57,20 @@ nav a {
     padding: 0.5rem 1rem;
     cursor: pointer;
 }
+#now-playing {
+    padding: 2rem;
+    border-bottom: 1px solid var(--border-color);
+}
+.movie-selector {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.movie-btn {
+    padding: 0.5rem 1rem;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    cursor: pointer;
+}
