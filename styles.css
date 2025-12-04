@@ -35,3 +35,13 @@ header{
     color: var(--header-text);
     padding: 1rem 2rem;
 }
+.header-content{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
