@@ -116,7 +116,7 @@ nav a {
     
 }
 #game h2 {
-    color: #d4af37;
+    color: gold;
     text-shadow: 0 0 10px gold;
 }
 #game > p {
@@ -132,7 +132,7 @@ nav a {
     color: #000000;
 }
 #guess-btn {
-    background: gold;
+    background: #ffffff;
     color: black;
     font-weight: bold;
 }
