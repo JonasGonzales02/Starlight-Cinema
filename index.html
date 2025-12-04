@@ -39,7 +39,7 @@
             <h2>Win a Free small Popcorn!</h2>
             <p>Guess a number between 1 and 10:</p>
             <div class="game-container">
-                <input type="number" id="guess-input" min="1"max="10" placeholder="0">
+                <input type="number" id="guess-input" min="1" max="10" placeholder="0">
                 <button id="guess-btn">Submit Guess</button>
                 <div id="game-result" class="result"></div>
             </div>
@@ -50,14 +50,49 @@
         </section>
         <section id="contact">
             <h2>Contact Us</h2>
-            <form id="contact form">
+            <form id="contact-form">
                 <div class="form-group">
                     <label for="full-name">Full Name *</label>
                     <input type="text" id="full-name" name="full-name" required>
                     <span class="error-message" id="name-error"></span>
                 </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+                    <span class="error-message" id="phone-error"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email">
+                    <span class="error-message" id="email-error"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label for="comments">Questions or Comments *</label>
+                    <textarea id="comments" name="comments" required></textarea>
+                    <span class="error-message" id="comments-error"></span>
+                </div>
+                
+                <div class="form-group">
+                    <p>Preferred Contact Method *</p>
+                    <label>
+                        <input type="radio" name="contact-method" value="phone" required> Phone
+                    </label>
+                    <label>
+                        <input type="radio" name="contact-method" value="email" required> Email
+                    </label>
+                    <span class="error-message" id="method-error"></span>
+                </div>
+                
+                <button type="submit">Send Message</button>
             </form>
-        </section>
+            <div id="success-message" class="success-message"></div>
         </section>
     </main>
+    <footer>
+        <p>&copy; 2025 Starlight Cinema. Family Owned and Operated.</p>
+    </footer>
+    <script src="script.js" defer></script>
 </body>
+</html>
