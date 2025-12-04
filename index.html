@@ -23,4 +23,25 @@
             <button id="theme-toggle">Dark Mode</button>
         </div>
     </header>
+    <main>
+        <section id="now-playing">
+            <h2>Now Playing</h2>
+            <div class="movie-slector">
+                <button class="movie-btn active" data-movie="0">The Last Sunset</button>
+                <button class="movie-btn" data-movie="1">Galaxy Quest</button>
+                <button class="movie-btn" data-movie="2">Midnight in Paris</button>
+            </div>
+            <div id="movie-display" class="movie-display">
+
+            </div>
+        </section>
+        <section id="game">
+            <h2>Win a Free small Popcorn!</h2>
+            <p>Guess a number between 1 and 10:</p>
+            <div class="game-container">
+                <input type="number" id="guess-input" min="1"max="10" placeholder="0">
+                <button id="guess-btn">Submit Guess</button>
+            </div>
+        </section>
+    </main>
 </body>
