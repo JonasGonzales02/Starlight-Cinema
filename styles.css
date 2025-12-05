@@ -156,7 +156,6 @@ nav a {
     font-weight: bold;
 }
 #guess-btn:hover {
-    background: #f8e9a1;
     transform: scale(1.05);
 }
 
