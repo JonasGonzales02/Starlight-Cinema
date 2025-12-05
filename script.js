@@ -3,12 +3,12 @@ const movies = [
     {
         name: "The Last Sunset",
         image: "images/Sunset.jpg",
-        desc: "A heartwarming drama about family and redemption. Follow the journey of a retired fisherman rediscovering life's meaning. Rated PG-13. Showtimes: 2:00 PM, 5:00 PM, 8:00 PM"
+        desc: "A heartwarming drama about family and redemption. Follow the journey of a retired fisherman rediscovering life's meaning. <strong>Rated PG-13.</strong> <br><span>Showtimes: 2:00 PM, 5:00 PM, 8:00 PM</span"
     },
     {
         name: "Galaxy Quest",
         image: "images/Galaxy.jpg",
-        desc: "Epic space adventure that will take you to new worlds. Join the crew of the Starship Endeavor as they battle alien forces to save humanity. Rated PG. Showtimes: 3:00 PM, 6:00 PM, 9:00 PM"
+        desc: "Epic space adventure that will take you to new worlds. Join the crew of the Starship Endeavor as they battle alien forces to save humanity. <strong>Rated PG.</strong><br><span> Showtimes: 3:00 PM, 6:00 PM, 9:00 PM</span>"
     },
     {
         name: "Midnight in Paris",
