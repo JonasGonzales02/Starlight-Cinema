@@ -241,11 +241,10 @@ footer p {
 }
 
 .dark-theme .movie-btn.active {
-    background-color: #d4af37;
-    color: #000000;
+    background-color: #600000;
+    color: #ffffff;
 }
 
 .dark-theme .movie-btn:hover {
-    background-color: #f8e9a1;
     color: #000000;
 }
