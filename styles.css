@@ -158,7 +158,7 @@ nav a {
     border: 1px solid #f5c6cb;
 }
 #contact {
-    background: linear-gradient(135deg, rgba(128, 0, 0, 0.08), rgba(0, 0, 0, 0.05));
+    background: #721c24;
     border: 1px solid rgba(128, 0, 0, 0.2);
     border-radius: 8px;
     margin: 2rem;
