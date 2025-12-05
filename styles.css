@@ -130,10 +130,12 @@ nav a {
 }
 
 .movie-display img {
-   flex: 0 0 45%;
+   max-width: 500px;
     height: auto;
-    max-width: none;
+    margin-bottom: 0;
+    flex-shrink: 0;
     order: 0;
+    
 }
 #game {
     text-align: center;
