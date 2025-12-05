@@ -105,11 +105,13 @@ nav a {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    text-align: left;
 }
 .movie-display h3 {
     margin: 0 0 1rem 0;
     order: 1;
     color: #800000;
+    flex: 0 0 50%;
 }
 
 .movie-display p {
@@ -117,19 +119,20 @@ nav a {
     order: 2;
     line-height: 1.8;
     min-height: 120px;
+    flex: 0 0 50%;
 }
 .movie-display > div {
     display: flex;
     align-items: flex-start;
     gap: 2rem;
     width: 100%;
+    justify-content: space-between;
 }
 
 .movie-display img {
-   max-width: 300px;
+   flex: 0 0 45%;
     height: auto;
-    margin-bottom: 0;
-    flex-shrink: 0;
+    max-width: none;
     order: 0;
 }
 #game {
