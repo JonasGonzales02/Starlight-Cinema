@@ -101,13 +101,26 @@ nav a {
 .movie-display {
     border: 1px solid var(--border-color);
     padding: 2rem;
-    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    text-align: left;
+}
+.movie-display h3 {
+    margin-top: 0;
+    color: #800000;
+}
+
+.movie-display p {
+    margin: 1rem 0 0 0;
+    line-height: 1.6;
 }
 
 .movie-display img {
-    max-width: 300px;
+   max-width: 300px;
     height: auto;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
+    flex-shrink: 0;
 }
 #game {
     background: linear-gradient(#800000, #1a1a3e);
