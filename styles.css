@@ -62,7 +62,7 @@ nav a {
 }
 
 #theme-toggle {
-    background-color: var(--button-bg);
+    background-color: var(--bg-color);
     color: var(--button-text);
     border: none;
     padding: 0.5rem 1rem;
