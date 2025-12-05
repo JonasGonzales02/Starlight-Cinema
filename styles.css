@@ -257,4 +257,14 @@ footer p {
 .dark-theme .movie-display h3 {
     color: #ffffff;
 }
+.movie-display strong {
+    color: #800000;
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px 0;
+}
+
+.dark-theme .movie-display strong {
+    color: #f8e9a1;
+}
 
