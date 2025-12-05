@@ -123,6 +123,7 @@ nav a {
     flex-shrink: 0;
 }
 #game {
+    text-align: center;
     background: linear-gradient(#800000, #1a1a3e);
     border: 3px solid #000000;
     border-radius: 10px;
@@ -134,6 +135,11 @@ nav a {
 }
 #game > p {
     color: white;
+}
+#game h2, #game > p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .game-container {
