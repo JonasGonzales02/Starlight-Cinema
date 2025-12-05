@@ -159,7 +159,7 @@ nav a {
 }
 #contact {
     background: #800000;
-    border: 1px solid rgba(128, 0, 0, 0.2);
+    border: 2px solid #000000;
     border-radius: 8px;
     margin: 2rem;
     padding: 2rem;
