@@ -244,4 +244,7 @@ footer p {
     background-color: #600000;
     color: #ffffff;
 }
+.dark-theme .movie-display h3 {
+    color: #ffffff;
+}
 
