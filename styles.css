@@ -102,18 +102,27 @@ nav a {
     border: 1px solid var(--border-color);
     padding: 2rem;
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     gap: 2rem;
-    text-align: left;
 }
 .movie-display h3 {
-    margin-top: 0;
+    margin: 0 0 1rem 0;
+    order: 1;
     color: #800000;
 }
 
 .movie-display p {
-    margin: 1rem 0 0 0;
-    line-height: 1.6;
+    margin: 0;
+    order: 2;
+    line-height: 1.8;
+    min-height: 120px;
+}
+.movie-display > div {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    width: 100%;
 }
 
 .movie-display img {
@@ -121,6 +130,7 @@ nav a {
     height: auto;
     margin-bottom: 0;
     flex-shrink: 0;
+    order: 0;
 }
 #game {
     text-align: center;
