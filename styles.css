@@ -213,6 +213,6 @@ footer p {
     color: #d4af37;
 }
 .dark-theme #contact {
-    background: linear-gradient(135deg, rgba(128, 0, 0, 0.15), rgba(0, 0, 0, 0.1));
-    border-color: #d4af37;
+    background-color: #d4af37;
+    border-color: #000000;
 }
