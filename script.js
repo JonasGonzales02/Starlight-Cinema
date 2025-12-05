@@ -13,7 +13,7 @@ const movies = [
     {
         name: "Midnight in Paris",
         image: "images/Paris.jpg",
-        desc: "Romantic comedy that will make you believe in love again. Two strangers meet by chance and embark on a night through the city of lights. Rated PG-13. Showtimes: 4:00 PM, 7:00 PM"
+        desc: "Romantic comedy that will make you believe in love again. Two strangers meet by chance and embark on a night through the city of lights. <strong>Rated PG-13.</strong> <br><span class='showtime'>Showtimes: 4:00 PM, 7:00 PM</span>"
     }
 ];
 document.getElementById('theme-toggle').onclick = function() {
